@@ -1,5 +1,20 @@
-
-
 h3 {
-    font-size: 40px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #070707;
+
+  /* thuộc tính vị trí chữ */
+  text-align: center;
+
+  /* cỡ chữ  */
+  font-size: 30px;
+
+  /* độ dày của chữ */
+  font-weight: normal;
+}
+
+img {
+  width: 400px;
 }
