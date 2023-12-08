@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-title {
+    text-align: center;
+    font-family: 'Gasoek One', sans-serif;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
