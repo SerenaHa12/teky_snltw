@@ -64,3 +64,24 @@ header {
   border: 1px solid #fff;
   cursor: pointer;
 }
+
+/* css cho nav dropdown */
+.dropdown:hover .about-nav {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.about-nav {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+
+.about-nav li:hover {
+  color: #27ae60;
+}
