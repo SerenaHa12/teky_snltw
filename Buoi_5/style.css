@@ -85,3 +85,40 @@ header {
 .about-nav li:hover {
   color: #27ae60;
 }
+
+/* SECTION ABOUT */
+.about h1 {
+  margin-top: 47px;
+  margin-bottom: 38px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-description {
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+/* cuc tron */
+.info-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.info {
+  text-align: center;
+}
+
+.info .circle-item {
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: #27ae60;
+  border: 40px solid #171717cc;
+  margin: auto;
+}
