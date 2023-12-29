@@ -134,7 +134,32 @@ header {
 
 .feature-inner {
   display: flex;
+  gap: 40px;
+  /* flex-basis: 33.333%; */
   justify-content: space-between;
   margin-left: 120px;
   margin-right: 120px;
+  text-align: center;
+}
+
+.feature-item {
+  background-color: #212121;
+  flex-basis: 33.333%;
+  padding: 60px 0;
+  border-bottom: 1px solid transparent;
+}
+
+.feature-item:hover {
+  border-bottom: 2px solid #27ae60;
+}
+
+.feature-item i {
+  font-size: 40px;
+  background-color: #212121;
+  margin-bottom: 20px;
+  color: #27ae60;
+}
+
+.feature-item p {
+  background-color: #212121;
 }
