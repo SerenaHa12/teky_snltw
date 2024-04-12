@@ -92,9 +92,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Modal title
-              </h1>
+              <h1 class="modal-title fs-5" id="exampleModalLabel">LOGIN</h1>
               <button
                 type="button"
                 class="btn-close"
@@ -102,7 +100,38 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
+
+            <!-- form -->
+            <div class="modal-body">
+              <!-- username -->
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nhập username"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <!-- email -->
+              <div class="input-group flex-nowrap">
+                <!-- icon password -->
+                <span class="input-group-text" id="addon-wrapping"
+                  ><i class="fa-solid fa-lock"></i
+                ></span>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Nhập password"
+                  aria-label="Password"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+            </div>
+            <!-- end form -->
+
             <div class="modal-footer">
               <button
                 type="button"
