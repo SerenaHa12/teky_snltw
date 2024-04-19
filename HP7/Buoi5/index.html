@@ -292,7 +292,149 @@
               alt="teky"
             />
           </div>
-          <div class="col">2</div>
+          <div class="col">
+            <h4 class="text-warning">GIỚI THIỆU</h4>
+            <h3>
+              TEKY là Học viện sáng tạo công nghệ với chương trình giảng dạy
+              STEAM
+            </h3>
+            <p>
+              Học viện Sáng tạo Công nghệ Teky với chương trình chuẩn STEAM Mỹ
+              được tổ chức EAF đánh giá chuẩn chất lượng cao, với việc áp dụng
+              STEAM kết hợp với nền tảng công nghệ tiên tiến trong việc giảng
+              dạy các bộ môn về công nghệ (Lập trình, Robotics, 3D và Truyền
+              thông đa phương tiện) và các bộ môn K12 theo chuẩn của BGD (Toán,
+              Lý, Hoá, Tiếng anh và Tin học nhà trường) dành cho trẻ từ 5 đến 18
+              tuổi.
+            </p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#classModal"
+            >
+              Đăng ký lớp
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="classModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                ĐĂNG KÝ LỚP HỌC
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <!-- form -->
+            <div class="modal-body">
+              <!-- username -->
+              <div class="input-group flex-nowrap my-4">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nhập họ và tên học sinh"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <!-- username -->
+              <div class="input-group flex-nowrap my-4">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nhập họ và tên phụ huynh"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <!-- email -->
+              <div class="input-group flex-nowrap my-4">
+                <!-- icon email -->
+                <span class="input-group-text" id="addon-wrapping"
+                  ><i class="fa-solid fa-envelope"></i
+                ></span>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Nhập email đăng ký"
+                  aria-label="Email"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <!-- age -->
+              <div class="input-group flex-nowrap my-4">
+                <!-- icon age -->
+                <span class="input-group-text" id="addon-wrapping"
+                  ><i class="fa-solid fa-pager"></i
+                ></span>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Nhập tuổi của con"
+                  aria-label="Tuổi"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <!-- dob -->
+              <div class="input-group flex-nowrap my-4">
+                <!-- icon calender -->
+                <span class="input-group-text" id="addon-wrapping"
+                  ><i class="fa-solid fa-calendar-days"></i
+                ></span>
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder="Nhập ngày tháng năm sinh"
+                  aria-label="Dob"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <!-- checbox -->
+              <h6>Chọn lớp muốn đăng ký</h6>
+              <div class="input-group mb-3">
+                <div class="input-group-text">
+                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+              
+            <!-- end form -->
+
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
